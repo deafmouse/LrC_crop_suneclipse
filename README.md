@@ -24,3 +24,5 @@ All original RAW files remain untouched, and storage overhead is virtually zero 
 
 ## Known Limitations
 The script still struggles to detect the geometric center of the Sun during the [Baily's beads phase](https://en.wikipedia.org/wiki/Baily%27s_beads). Because this phase lasts only for a very brief period right before and after totality, only a few manual adjustments are required. During this window, the visible crescent breaks into localized points of light caused by lunar surface topography (mountains and valleys), depending on the exact trajectory and angle at which the Moon traverses the Sun - this makes automated circle fitting unreliable.
+
+Works with Cannon CR3 RAW image format. Feel free to branch, modify, reuse this code to get other camera RAW formats supported.
